@@ -100,7 +100,7 @@ sosa:madeBySensor
   dct:created "enter date of creation in the form bellow"@en;
   dct:description "Vocabulary description"@en;
   dct:hasVersion "0.1.1"@en;
-  dct:modified "2022-06-04T21:44:07+00:00"@en;
+  dct:modified "2022-06-04T21:55:11+00:00"@en;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "Vocabulary title"@en;
   skos:hasTopConcept vocab:1000, vocab:1001, vocab:1002, vocab:1003, vocab:1004, vocab:1005,
@@ -115,141 +115,175 @@ vocab:1000 a skos:Concept;
   skos:altLabel "alt test subject"@en;
   skos:definition "some definition"@en;
   skos:inScheme <http://purl.org/m4m20/subjects>;
-  skos:prefLabel "test subject"@en;
+  skos:prefLabel "subject 1"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1001 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 2"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1002 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 3"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1003 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 4"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1004 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 5"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1005 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 6"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1006 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 7"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1007 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 8"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1008 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 9"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1009 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 10"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1010 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 11"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1011 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 12"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1012 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 13"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1013 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 14"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1014 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 15"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1015 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 16"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1016 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 17"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1017 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 18"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1018 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 19"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1019 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 20"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1020 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 21"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1021 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 22"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1022 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 23"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1023 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 24"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1024 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 25"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1025 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 26"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1026 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 27"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1027 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 28"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1028 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 29"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1029 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 30"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1030 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 31"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1031 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 32"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1032 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 33"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1033 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 34"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1034 a skos:Concept;
   skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "subject 35"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
