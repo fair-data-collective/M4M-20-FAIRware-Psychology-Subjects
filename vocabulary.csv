@@ -20,42 +20,8 @@ dct:creator,,An ORCID ID of the vocabulary creator
 dct:rights,https://spdx.org/licenses/CC0-1.0,License under which the vocabulary is provided
 dct:hasVersion,0.1.1,Vocabulary version
 dct:created,enter date of creation in the form bellow,Date when vocabulary was initially created
-dct:modified,2022-06-04T21:55:11+00:00,Automatic update when vocabulary is updated
+dct:modified,2022-06-05T08:38:24+00:00,Automatic update when vocabulary is updated
 Definition of terms
 
 Identifier,"skos:prefLabel@en(id=""label"")","skos:altLabel(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(lookupColumn=""skos:prefLabel"" separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:statistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")","puv:uom(separator="","")",owl:deprecated^^xsd:boolean,skos:editorialNote@en,dct:modified^^xsd:date,dct:created^^xsd:date,"dct:creator(separator="","")","dct:contributor(separator="","")"
 vocab:1000,subject 1,alt test subject,some definition
-vocab:1001,subject 2
-vocab:1002,subject 3
-vocab:1003,subject 4
-vocab:1004,subject 5
-vocab:1005,subject 6
-vocab:1006,subject 7
-vocab:1007,subject 8
-vocab:1008,subject 9
-vocab:1009,subject 10
-vocab:1010,subject 11
-vocab:1011,subject 12
-vocab:1012,subject 13
-vocab:1013,subject 14
-vocab:1014,subject 15
-vocab:1015,subject 16
-vocab:1016,subject 17
-vocab:1017,subject 18
-vocab:1018,subject 19
-vocab:1019,subject 20
-vocab:1020,subject 21
-vocab:1021,subject 22
-vocab:1022,subject 23
-vocab:1023,subject 24
-vocab:1024,subject 25
-vocab:1025,subject 26
-vocab:1026,subject 27
-vocab:1027,subject 28
-vocab:1028,subject 29
-vocab:1029,subject 30
-vocab:1030,subject 31
-vocab:1031,subject 32
-vocab:1032,subject 33
-vocab:1033,subject 34
-vocab:1034,subject 35
