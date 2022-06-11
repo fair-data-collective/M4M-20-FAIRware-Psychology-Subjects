@@ -11,7 +11,6 @@
 @prefix puv: <https://w3id.org/env/puv#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 
-
 iop:constrains  a     owl:ObjectProperty ;
         rdfs:comment  "A Constraint constrains an Entity having a role in the Variable description." ;
         rdfs:domain   iop:Constraint ;
@@ -67,9 +66,8 @@ puv:method
   a owl:ObjectProperty ;
   rdfs:comment "method used to measure the value" ;
   rdfs:label "method" ;
-  rdfs:range .
-
-
+  rdfs:range puv:Method .
+        
 sosa:madeBySensor 
   a owl:ObjectProperty ;
   rdfs:label "made by sensor"@en ;
@@ -80,12 +78,11 @@ sosa:madeBySensor
   owl:inverseOf sosa:madeObservation ;
   rdfs:isDefinedBy sosa: .
 
-
 <http://purl.org/m4m20/subjects> a skos:ConceptScheme;
   dct:created "2022-06-01T00:00:00+00:00"^^xsd:datetime;
   dct:description "Vocabulary description"@en;
   dct:hasVersion "0.1.0";
-  dct:modified "2022-06-11T17:43:10+00:00"^^xsd:datetime;
+  dct:modified "2022-06-11T17:48:40+00:00"^^xsd:datetime;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "Vocabulary title"@en;
   skos:hasTopConcept vocab:1000;
