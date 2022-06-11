@@ -83,7 +83,7 @@ sosa:madeBySensor
   dct:created "2022-06-01T00:00:00+00:00"^^xsd:datetime;
   dct:description "Vocabulary description"@en;
   dct:hasVersion "0.1.0";
-  dct:modified "2022-06-11T17:12:32+00:00"^^xsd:datetime;
+  dct:modified "2022-06-11T17:18:19+00:00"^^xsd:datetime;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "Vocabulary title"@en;
   skos:hasTopConcept vocab:1000;
