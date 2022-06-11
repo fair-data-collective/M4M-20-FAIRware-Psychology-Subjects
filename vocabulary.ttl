@@ -4,6 +4,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vocab: <http://purl.org/m4m20/subjects/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <http://schema.org/>.
 @prefix iop:   <https://w3id.org/iadopt/ont/> .
 @prefix puv: <https://w3id.org/env/puv#> .
@@ -65,7 +67,7 @@ puv:method
   a owl:ObjectProperty ;
   rdfs:comment "method used to measure the value" ;
   rdfs:label "method" ;
-  rdfs:range puv:Method .
+  rdfs:range .
 
 
 sosa:madeBySensor 
@@ -83,7 +85,7 @@ sosa:madeBySensor
   dct:created "2022-06-01T00:00:00+00:00"^^xsd:datetime;
   dct:description "Vocabulary description"@en;
   dct:hasVersion "0.1.0";
-  dct:modified "2022-06-11T17:18:19+00:00"^^xsd:datetime;
+  dct:modified "2022-06-11T17:43:10+00:00"^^xsd:datetime;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "Vocabulary title"@en;
   skos:hasTopConcept vocab:1000;
