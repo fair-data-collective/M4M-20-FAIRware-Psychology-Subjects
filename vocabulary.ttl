@@ -80,12 +80,13 @@ sosa:madeBySensor
 
 <http://purl.org/m4m20/subjects> a skos:ConceptScheme;
   dct:created "2022-06-01T00:00:00+00:00"^^xsd:datetime;
+  dct:creator "0000-0003-0152-1441"@en;
   dct:description "Vocabulary description"@en;
   dct:hasVersion "0.1.0";
-  dct:modified "2022-06-20T06:20:41+00:00"^^xsd:datetime;
+  dct:modified "2022-06-20T11:18:34+00:00"^^xsd:datetime;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
-  dct:title "Vocabulary title"@en;
-  skos:hasTopConcept vocab:1000, vocab:1001;
+  dct:title "Psychology subjects M4M-20"@en;
+  skos:hasTopConcept vocab:1000, vocab:1001, vocab:1002;
   foaf:homepage "URL to the community developing vocab"@en .
 
 vocab:1000 a skos:Concept;
@@ -107,4 +108,15 @@ vocab:1001 a skos:Concept;
   skos:definition "Awareness of one’s own memory processes, often involving a conscious attempt to direct or control them. It is an aspect of metacognition."@en;
   skos:inScheme <http://purl.org/m4m20/subjects>;
   skos:prefLabel "metamemory"@en;
+  skos:topConceptOf <http://purl.org/m4m20/subjects> .
+
+vocab:1002 a skos:Concept;
+  dct:created "2022-06-20"^^xsd:date;
+  dct:creator "0000-0003-0152-1441"@en;
+  dct:modified "2022-06-20"^^xsd:date;
+  dct:source <http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Social_Comparison>;
+  skos:broaderMatch <http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Social_Comparison>;
+  skos:definition "Subjective evaluation of personal characteristics (e.g., ability level, personality traits, accomplishments) of oneself or another person in relation to the perceived characteristics of their peers."@en;
+  skos:inScheme <http://purl.org/m4m20/subjects>;
+  skos:prefLabel "peer comparison"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
