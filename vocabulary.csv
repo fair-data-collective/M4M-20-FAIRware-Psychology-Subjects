@@ -10,13 +10,26 @@ dct:title,Psychology subjects M4M-20,Title of the vocabulary
 dct:description,Vocabulary description,Description of the controlled vocabulary
 foaf:homepage,URL to the community developing vocab,Home page of community creating vocabulary
 dct:creator,0000-0003-0152-1441,An ORCID ID of the vocabulary creator
+dct:creator,0000-0003-2195-3997
 dct:rights,https://spdx.org/licenses/CC0-1.0,License under which the vocabulary is provided
 dct:hasVersion^^xsd:string,0.1.0,Vocabulary version
 dct:created^^xsd:datetime,2022-06-01T00:00:00+00:00,Date when vocabulary was initially created
-dct:modified^^xsd:datetime,2022-06-20T11:18:34+00:00,Automatic update when vocabulary is updated
+dct:modified^^xsd:datetime,2022-06-20T11:30:28+00:00,Automatic update when vocabulary is updated
 Definition of terms
 
 Identifier,"skos:prefLabel@en(id=""label"")","skos:altLabel(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(lookupColumn=""skos:prefLabel"" separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")","skos:broaderMatch(separator="","")",owl:deprecated^^xsd:boolean,skos:editorialNote@en,dct:modified^^xsd:date,dct:created^^xsd:date,"dct:creator(separator="","")","dct:contributor(separator="","")"
-vocab:1000,prospective memory,,"Remembering to do something in the future, such as taking one's medicine later.",http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Prospective_Memory,,http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Prospective_Memory,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
-vocab:1001,metamemory,,"Awareness of one’s own memory processes, often involving a conscious attempt to direct or control them. It is an aspect of metacognition.",https://dictionary.apa.org/metamemory,,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1000,prospective memory,,"Remembering to do something in the future, such as taking one's medicine later.",http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Prospective_Memory,memory,http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Prospective_Memory,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1001,metamemory,,"Awareness of one’s own memory processes, often involving a conscious attempt to direct or control them. It is an aspect of metacognition.",https://dictionary.apa.org/metamemory,memory,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
 vocab:1002,peer comparison,,"Subjective evaluation of personal characteristics (e.g., ability level, personality traits, accomplishments) of oneself or another person in relation to the perceived characteristics of their peers.",http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Social_Comparison,,,,http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Social_Comparison,,,2022-06-20,2022-06-20,0000-0003-0152-1441
+vocab:1003,aging,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-0152-1441
+vocab:1004,self-reported memory,,,,memory,,,,,,2022-06-20,2022-06-20,0000-0003-0152-1441
+vocab:1005,memory,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-0152-1441
+vocab:1006,cognition,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1007,working memory,,,,memory,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1008,attention,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1009,maintenance mechanism,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1010,cognitive regulation,,,,regulation,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1011,behavioral regulation,,,,regulation,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1012,emotion regulation,,,,regulation,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1013,regulation,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
+vocab:1014,sensitivity,,,,,,,,,,2022-06-20,2022-06-20,0000-0003-2195-3997
