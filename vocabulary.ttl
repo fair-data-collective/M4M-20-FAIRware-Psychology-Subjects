@@ -82,21 +82,29 @@ sosa:madeBySensor
   dct:created "2022-06-01T00:00:00+00:00"^^xsd:datetime;
   dct:description "Vocabulary description"@en;
   dct:hasVersion "0.1.0";
-  dct:modified "2022-06-19T17:23:02+00:00"^^xsd:datetime;
+  dct:modified "2022-06-20T06:20:41+00:00"^^xsd:datetime;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "Vocabulary title"@en;
-  skos:hasTopConcept vocab:1000;
+  skos:hasTopConcept vocab:1000, vocab:1001;
   foaf:homepage "URL to the community developing vocab"@en .
 
 vocab:1000 a skos:Concept;
-  skos:altLabel "alt test subject"@en;
-  skos:definition "some definition"@en;
+  dct:created "2022-06-20"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-06-20"^^xsd:date;
+  dct:source <http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Prospective_Memory>;
+  skos:definition "Remembering to do something in the future, such as taking one's medicine later."@en;
+  skos:exactMatch <http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Prospective_Memory>;
   skos:inScheme <http://purl.org/m4m20/subjects>;
-  skos:narrower vocab:1001;
-  skos:prefLabel "test subject"@en;
+  skos:prefLabel "prospective memory"@en;
   skos:topConceptOf <http://purl.org/m4m20/subjects> .
 
 vocab:1001 a skos:Concept;
-  skos:broader vocab:1000;
+  dct:created "2022-06-20"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-06-20"^^xsd:date;
+  dct:source <https://dictionary.apa.org/metamemory>;
+  skos:definition "Awareness of one’s own memory processes, often involving a conscious attempt to direct or control them. It is an aspect of metacognition."@en;
   skos:inScheme <http://purl.org/m4m20/subjects>;
-  skos:prefLabel "people"@en .
+  skos:prefLabel "metamemory"@en;
+  skos:topConceptOf <http://purl.org/m4m20/subjects> .
